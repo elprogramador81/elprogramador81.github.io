@@ -1,0 +1,124 @@
+nav{
+display:grid;
+grid-template-columns: 1fr auto;
+align-items: center;
+background: aliceblue;
+font-family: sans-serif;
+position:fixed;
+top:0;
+width:100%;
+z-index: 100;
+}
+@media only screen and (max-width: 1200px){
+nav{
+    display:grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    background: aliceblue;
+    font-family: sans-serif;
+    font-size: smaller;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index: 100;
+}
+nav .barnav{
+    display:grid;
+    grid-template-columns: repeat(4,auto);
+    margin-right: 10px;
+}
+section#i, section#ii, section#iii{
+    padding-top: 50px;}
+}
+
+@media only screen and (min-width: 1200px){
+nav .barnav{
+    display:grid;
+    grid-template-columns: repeat(4,auto);
+    margin-right: 30px;
+}}
+
+nav .barnav div{
+    padding: 10px 20px;
+}
+
+section{   
+    background-color: rgb(202, 198, 198);
+    text-align: center;
+    border: 2px solid black;
+}
+#info{
+    background-color: black;
+}
+@media only screen and (min-width: 1200px){
+section#i, section#ii, section#iii{
+    height: 300px;
+    padding-top: 30px;
+}
+.ul {
+    list-style-type: square;
+    list-style-position: inside;
+    text-align:justify;
+    margin-left:700px;
+}
+}
+
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/CV-Proyecto Integrador/diseno-web-online.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 500px;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    margin-top: 20px;
+}
+
+
+li{
+    font-size: medium;
+    font-family: Impact;
+}
+
+h3{
+    font-family: 'Lucida Sans';
+    font-style: oblique;
+
+}
+p {
+    font-family: sans-serif;
+}
+
+#profesion{
+    font-size: 20px;
+    font-family: Georgia;
+    font-style: italic;
+}
+
+#contacto{
+    background-color: bisque;
+    text-align: center;
+}
+
+.table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Volver{
+    border: none;
+    background: none;
+    cursor: pointer;
+    position:sticky;
+    left: 150%;
+    font-size: medium;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV-Proyecto Final</title>
+    <link rel="icon" type="image/x-icon" href="/CV-Proyecto Integrador/favicon.ico">
+    <link rel="stylesheet" href="estilocv.CSS">
+</head>
+<body>
+    <header>
+        <nav>      
+        <div class="barnav">
+            <p><span><a href="#hero">Información Personal</a></span></p>
+            <p><span><a href="#i">Experiencias Laborales</a></span></p>
+            <p><span><a href="#ii">Educación</a></span></p>
+            <p><span><a href="#iii">Habilidades</a></span></p>
+        </div>
+        </nav>
+    </header>    
+    <main>
+        <!-- SECCION INFO PERSONAL -->
+        <section id="hero" class="hero">
+            <div class="hero-image">
+                <div class="hero-text">
+                    <h1> <span id="info">Información Personal</span> </h1>
+                    <p><span> <u>Nombre y apellido</u> </span></p> 
+                    <h2>Guillermo Aguilera</h2>
+                    <p> <span><u>Edad </u></span> </p>
+                    <h3>41 años</h3>
+                    <p> <span><u>Estado civil</u></span> </p>
+                    <h3>Soltero</h3>
+                    <p> <span><u>Nacionalidad</u></span> </p>
+                    <h3>Argentino</h3>                    
+                    <button id="button" class="btn" type="button"> Contactar</button>             
+                </div>
+            </div>
+        </section>
+        <!-- EXPERIENCIAS LABORALES -->
+        <section id="i">
+            <div class="experiencias">
+                <h2><u>Experiencias laborales</u> </h2> 
+                <div class="Experiencia">
+                <h3>Experiencia A</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a pellentesque mi. 
+                       Nam gravida dapibus est sed dignissim. In feugiat ante ut purus fringilla viverra</p>               
+                <h3>Experiencia B</h3>
+                    <p> Sed aliquam felis a nisi scelerisque lacinia. Duis pulvinar mi diam, in dictum arcu lacinia sed. 
+                        Phasellus viverra augue erat, eu tincidunt massa elementum ac. 
+                        Sed porttitor ante velit, id finibus lorem imperdiet eu.</p>              
+                <h3>Experiencia C</h3>
+                    <p>Curabitur eget sodales risus, non tristique erat. Sed eget scelerisque nulla. 
+                       Donec ultricies orci in magna consequat, eu iaculis nulla dictum.</p> 
+                </div>             
+            </div>                  
+        </section>
+        <!-- SECCION EDUCACION -->
+        <section id="ii">
+            <div>
+                <h2><u>Educación</u></h2>
+                <h3>Titulo superior</h3>
+                <p>Iniciado Año 2010, terminado Año 2015</p>
+                <h3>Curso</h3>
+                <p>Iniciado Año 2017, terminado Año 2019</p>
+            </div>                     
+        </section>
+        <!-- SECCION HABILIDADES -->
+        <section id="iii">
+            <div>                          
+                <h2><u>Habilidades</u></h2>
+                <ul class="ul">
+                    <li><span>Javascript</span></li><br>
+                    <li><span>Htmlcss</span></li><br>
+                    <li><span>Bootstrap</span></li><br>                                      
+                </ul>
+            </div>
+            <p id="profesion">Profesión: <u>Desarrollador Web</u> </p>
+        </section>     
+    </main>
+    <!-- SECCION CONTACTO -->
+    <footer>
+        <section id="contacto" class="contacto">
+            <!-- info de contacto -->
+            <h2><u>Información de contacto</u></h2>
+                <p> <span><u>Correo Electrónico</u></span> </p>
+                <p class="mail">usuario@mail.com</p> 
+                <p> <span><u>Número de Celular</u></span> </p>
+                <p class="Número">(+54 11) 666912389678</p>
+                <p> <span><u>Dirección de residencia</u></span> </p>
+                <p>Provincia de Buenos Aires</p><br>
+                <!-- formulario -->
+            <h2><u>Formulario de contacto</u></h2>
+            <form id="formulario">
+                <table class= "table" cellspacing="2" cellpadding="2" border="2">
+                  <tr>
+                    <td align="right">Nombre</td>
+                    <td><input type="text" id="usuario"/></td>
+                  </tr>
+                  <tr>
+                    <td align="right">Email</td>
+                    <td><input type="text" id="user-email"/></td>                 
+                  </tr>
+                  <tr>
+                    <td align="right">Mensaje</td>
+                    <td><textarea id="mensaje" name="message" rows="4" cols="21"></textarea></td>               
+                  </tr>
+                  <tr>
+                    <td><input type="submit" value="Enviar" onclick="return validateEmail()" /></td>
+                    <td><button id="button" type="reset"><span>Resetear</span></button></td>
+                  </tr>
+                </table>
+            </form>
+            <button class="Volver"><span><u>Volver arriba</u> </span></button>
+        </section>       
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
