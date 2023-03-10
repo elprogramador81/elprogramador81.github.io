@@ -1,7 +1,7 @@
 
 # CV-Proyecto Final
 
-Estoy trabajando actualmente en el desarrollo de un Curriculum Vitea en HTML, utilizando la hoja de estilos de CSS y el lenguaje de programación Javascript.
+Estoy trabajando actualmente en el desarrollo de un Curriculum Vitae en HTML, utilizando la hoja de estilos de CSS y el lenguaje de programación Javascript.
 
 Utilizo una barra de navegación en la parte superior de la página para desplazarse a cada sección sin necesidad de utilizar de manera continua el scroll.
 
